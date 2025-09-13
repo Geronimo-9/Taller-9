@@ -53,4 +53,8 @@ public Empleado(String nombre, int edad, String departamento){
         super.mostrarDetalles();
         System.out.println("Departamento: "+departamento+" ");
     }
+
+
+
+
 }

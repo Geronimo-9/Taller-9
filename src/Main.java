@@ -22,8 +22,11 @@ a1.mostrarEspecie();
 
 
 
+//Ejercicio 3, Uso inadeucuado de la palabra clave super --> Está en la clase Persona_2
 
+      //super.nombre = "Geronimo"; --> Solo puede ser llamada en un contexto de encapsulamiento estatico
 
-
+        Empleado_2 g = new Empleado_2("Gabriel",33, "Diseño grafico");
+        g.mostrarDetalles();
         }
     }
